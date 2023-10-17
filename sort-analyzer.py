@@ -69,16 +69,22 @@ def timeFunction(sortFunction, anArray):
     return endTime - startTime
 
 # Test bubble sort
-# print(f"Bubble Sort Random Data: {timeFunction(bubbleSort, randomData)} seconds")
-# print(f"Bubble Sort Reversed Data: {timeFunction(bubbleSort, reversedData)} seconds")
-# print(f"Bubble Sort Nearly Sorted Data: {timeFunction(bubbleSort, nearlySortedData)} seconds")
-# print(f"Bubble Sort Few Unique Data: {timeFunction(bubbleSort, fewUniqueData)} seconds")
+print(f"Bubble Sort Random Data: {timeFunction(bubbleSort, randomData)} seconds")
+print(f"Bubble Sort Reversed Data: {timeFunction(bubbleSort, reversedData)} seconds")
+print(f"Bubble Sort Nearly Sorted Data: {timeFunction(bubbleSort, nearlySortedData)} seconds")
+print(f"Bubble Sort Few Unique Data: {timeFunction(bubbleSort, fewUniqueData)} seconds")
 
 # Test selection sort
 print(f"Selection Sort Random Data: {timeFunction(selectionSort, randomData)} seconds")
 print(f"Selection Sort Reversed Data: {timeFunction(selectionSort, reversedData)} seconds")
 print(f"Selection Sort Nearly Sorted Data: {timeFunction(selectionSort, nearlySortedData)} seconds")
 print(f"Selection Sort Few Unique Data: {timeFunction(selectionSort, fewUniqueData)} seconds")
+
+# Test insertion sort
+print(f"Insertion Sort Random Data: {timeFunction(insertionSort, randomData)} seconds")
+print(f"Insertion Sort Reversed Data: {timeFunction(insertionSort, reversedData)} seconds")
+print(f"Insertion Sort Nearly Sorted Data: {timeFunction(insertionSort, nearlySortedData)} seconds")
+print(f"Insertion Sort Few Unique Data: {timeFunction(insertionSort, fewUniqueData)} seconds")
 
 
 # EXAMPLE OF HOW TO TIME DURATION OF A SORT ALGORITHM
